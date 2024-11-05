@@ -8,5 +8,7 @@ if __name__ == "__main__":
     try:
         uneseni_broj = int(input("Unesite broj:"))
         print(provjera_broja(uneseni_broj))
+        uneseni2_broj = int(input("Unesite 2 broj:"))
+        print(provjera_broja(uneseni2_broj))
     except ValueError:
         print("Unesna vrijednost nije broj.")
